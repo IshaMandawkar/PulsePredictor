@@ -1,0 +1,6 @@
+Model,Accuracy,Precision,Recall,F1 Score,AUC,Top_Features,Best_Params
+Logistic Regression,77.2,45.6,67.05,54.29,80.52,"Poor_Mental_Health_Days, Employment_Status_8.0, Sex, Ever_Arthritis, Ever_COPD","{'learning_rate': 0.1, 'max_depth': 4, 'n_estimators': 200, 'subsample': 0.8}"
+Random Forest,75.61,43.72,72.56,54.57,81.96,"Poor_Mental_Health_Days, Employment_Status_8.0, Sex, Ever_Arthritis, Ever_COPD","{'learning_rate': 0.1, 'max_depth': 4, 'n_estimators': 200, 'subsample': 0.8}"
+KNN,81.5,60.72,23.7,34.09,72.41,"Poor_Mental_Health_Days, Employment_Status_8.0, Sex, Ever_Arthritis, Ever_COPD","{'learning_rate': 0.1, 'max_depth': 4, 'n_estimators': 200, 'subsample': 0.8}"
+XGBoost (Baseline),76.2,44.54,72.94,55.31,82.42,"Poor_Mental_Health_Days, Employment_Status_8.0, Sex, Ever_Arthritis, Ever_COPD","{'learning_rate': 0.1, 'max_depth': 4, 'n_estimators': 200, 'subsample': 0.8}"
+XGBoost (Tuned),76.0,44.31,73.41,55.26,82.56,"Poor_Mental_Health_Days, Employment_Status_8.0, Sex, Ever_Arthritis, Ever_COPD","{'learning_rate': 0.1, 'max_depth': 4, 'n_estimators': 200, 'subsample': 0.8}"
